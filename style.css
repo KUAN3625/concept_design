@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+
+
+}
+
+header {
+    background-color: rgb(255, 177, 177);
+    border: 5px #885555 solid;
+    margin: 10px;
+    padding: 30px 20px;
+    position: relative;
+}
+
+section,
+footer {
+    background-color: rgb(255, 177, 177);
+    border: 5px #885555 solid;
+    margin: 10px;
+    padding: 30px 20px;
+    position: relative;
+}
+
+.cso button {
+    width: 90px;
+    cursor: pointer;
+
+}
+
+.lii {
+    background-color: #f2c0c0;
+
+}
+
+.cso {
+
+    background-color: blue;
+    color: white;
+    padding: 60px 0;
+    align-items: center;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.cso h1 {
+    color: #ffffff;
+    border: 1px solid #f2c0c0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 50px;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+h2 {
+    color: rgb(42, 45, 255);
+    font-size: 24px;
+    font-style: normal;
+
+
+}
+
+h3 {
+    color: rgb(82, 66, 45);
+    border: 2px slategray;
+    font-style: initial;
+    font-size: 15px;
+
+}
+
+header ul {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header ul:hover {
+    text-decoration: underline;
+
+}
+
+header li {
+    display: inline;
+    margin-right: 4vw;
+
+}
+
+
+
+p {
+    background-color: wheat;
+    font-style: italic;
+    border-radius: 8px;
+    /*註解？*/
+}
+
+/*響應式語法*/
+
+@media screen {
+    header ul {
+        display: none;
+
+    }
+}
